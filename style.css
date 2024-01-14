@@ -1,0 +1,206 @@
+@font-face {
+    font-family: Gilroy;
+    src: url(../gilroy/Gilroy-Regular.ttf);
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Gilroy;
+}
+
+html, body
+{
+    width: 100%;
+    height: 100%;
+}
+
+#main
+{
+    width: 100%;
+}
+
+#page1
+{
+    width: 100%;
+    height: 100vh;
+    background-color: #E3E3C4;
+}
+
+#page1 #nav
+{
+    width: 100%;
+    height: 10vh;
+    background-color: transparent;
+    font-family: pp woodland;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#page1 #logoText h1
+{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: pp woodland;
+    
+    color: #576144;
+}
+
+#page1 #image
+{
+    width: 100%;
+    height: 90vh;
+    background-image: url(https://images.unsplash.com/photo-1470770841072-f978cf4d019e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+} 
+
+#page1 #nav-part2
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+#page1 #nav-part2 h3
+{
+    color: #576144;
+    font-size: 20px;
+    font-family: pp woodland;
+}
+
+#page2
+{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #576144;
+    padding: 5vw;
+}
+
+#page2 h1
+{
+    color: #434B34;
+    font-size: 4.5vw;
+    font-weight: 400;
+    text-align: center;
+    font-family: PP Woodland;
+    line-height: 4.8vw;
+}
+
+#page3
+{
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+    background-color: #E3E3C4;
+    margin: 20px 30px;
+    gap: 20px;
+}
+
+#page3 #img1
+{
+    width: 40%;
+    height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1527631746610-bca00a040d60?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+}
+
+#page3 #img2
+{
+    width: 60%;
+    height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1568849676085-51415703900f?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+    margin-right: 20px;
+}
+
+#page4
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #E3E3C4;
+}
+
+#page4 #quote h3
+{
+    font-family: pp woodland;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    border: 1px solid #000;
+    border-radius: 20px;
+    width: 56%;
+    padding: 15px;
+    font-size: 20px;
+    color: #3a422a;
+}
+
+#page4 #quote h3:hover
+{
+    background-color: #2e2e2e3a;
+}
+
+#page4 #quote span
+{
+    color: #3a422a;
+    font-family: pp woodland;
+}
+
+
+#page4 #logo
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#page4 #logo i
+{
+    font-size: 30px;
+}
+
+#page4 #logo i:hover
+{
+    font-size: 35px;
+}
+
+#page4 #footer-text
+{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#page4 h2
+{
+    text-align: center;
+    font-size: 30px;
+    font-family: monument;
+}
+
+#page4 #footer-text h4
+{
+    font-size: 25px;
+    text-align: center;
+    font-family: monument;
+    font-weight: 500;
+}
